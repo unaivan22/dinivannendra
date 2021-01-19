@@ -42,7 +42,7 @@ body {
 
 .img-thumbnail-projects{
     width: 100%;
-    height: 300px;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -52,7 +52,7 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #7585AA;
+    color: rgb(66, 66, 66);
     font-weight: 500;
 }
 
@@ -64,4 +64,50 @@ body {
     width: 50px;
     height: 1px;
     background-color: #e9e9e9;
+}
+
+.projects:hover .project-title{
+color: #208FFF !important;
+}
+
+.projects .img-hover-zoom--zoom-n-rotate img{
+    transition: transform .5s ease-in-out !important;
+}
+
+.projects:hover .img-hover-zoom--zoom-n-rotate img{
+    transition: transform .5s ease-in-out !important;
+    transform: scale(1.2) rotate(12deg) !important;
+    cursor: pointer;
+}
+
+.img-hover-zoom--zoom-n-rotate {
+    overflow: hidden;
+}
+/* 
+.img-hover-zoom--zoom-n-rotate img {
+    transition: transform .7s ease-in-out !important;
+  }
+.img-hover-zoom--zoom-n-rotate:hover img {
+transform: scale(1.5) rotate(12deg) !important;
+} */
+
+
+/* =========== footer ============== */
+.bg-footer{
+    background-color: #F9F8F8 !important;
+}
+
+
+
+.profile-photos {
+    object-fit:cover;
+    width: 100%;
+    height: 480px;
+}
+
+hr {
+    margin-top: 3.3rem;
+    margin-bottom: 3rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1;
 }
