@@ -1,11 +1,5 @@
-# singkat.in
-Shorten your url
-
+# About me
+Portfolio Dinivan Nendra G.
 
 ## Preview
-<img src="https://raw.githubusercontent.com/unaivan22/singkatIn/master/media/singkatin.png">
-
-## Dribbble
-https://dribbble.com/shots/14951546-singkat-in-shorten-your-url
-
-
+<img src="https://raw.githubusercontent.com/unaivan22/dinivannendra/master/media/preview.png">
