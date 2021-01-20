@@ -83,6 +83,13 @@ color: #208FFF !important;
 .img-hover-zoom--zoom-n-rotate {
     overflow: hidden;
 }
+
+.text-blue{
+    color: #208FFF !important;
+}
+.text-blue:hover{
+    color: #1080ef !important;
+}
 /* 
 .img-hover-zoom--zoom-n-rotate img {
     transition: transform .7s ease-in-out !important;
