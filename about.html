@@ -119,7 +119,7 @@
 						<div class="d-flex flex-column-fluid">
 							<!--begin::Container-->
 							<div class="container">
-								<section class="px-40">
+								<section id="container" class="px-40">
 									<div class="row text-center mb-12">
                                         <!-- <h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12 font-weight-normal ">UI/UX Designer from Surabaya, Indonesia.</h1> -->
                                         <img class="img-fluid profile-photos" src="media/una.png" alt="">
@@ -130,7 +130,26 @@
                                         <h4>Hello! I’m Dinivan Nendra Gunawan, an UI/UX Designer currently working as a UI/UX Designer at Energeek. I'am collaborate with passionate people and companies to create products and services that have exceptional user experience. Most recently, I've worked on digital products related to web based and mobile apps.</h4>
 
                                         <a href="media/CV-dinivan-english.pdf" class="btn btn-success font-weight-bolder btn-lg mt-6" download>Download CV</a>
-                                    </div>
+									</div>
+									<hr class="row">
+									<div class="row">
+										<h1 class="font-weight-bolder mb-4 col-12 p-0 mb-12">Tools & skills</h1>
+										<div class="col-4">
+											<h3 class="font-weight-bolder mb-6">Interaction</h3>
+											<article id="interaction">
+											</article>
+										</div>
+										<div class="col-4">
+											<h3 class="font-weight-bolder mb-6">Tools</h3>
+											<article  id="tools">
+											</article>
+										</div>
+										<div class="col-4" >
+											<h3 class="font-weight-bolder mb-6">Coding</h3>
+											<article id="coding">
+											</article>
+										</div>
+									</div>
                                     <hr class="row">
                                     <div class="row">
                                         <h1 class="font-weight-bolder mb-4">Work experience</h1>
@@ -217,7 +236,26 @@
 		<!-- <script src="assets/js/pages/widgets.js"></script> -->
 		<!--end::Page Scripts-->
 
-		<!-- <script src="js/index.js"></script> -->
+		<script src="js/about.js"></script>
+		<script>
+			window.onresize = function() {
+    			toggle();
+			}
+			document.addEventListener("DOMContentLoaded", function(event) {
+				toggle();
+			});
+
+			function toggle() {
+				if (window.innerWidth < 800) { 
+					document.getElementById("container").classList.remove("px-40");
+					document.getElementById("container").classList.add("px-10");  
+				}
+				else {
+					document.getElementById("container").classList.remove("px-10");
+					document.getElementById("container").classList.add("px-40");  
+				}    
+			}
+		</script>
 	</body>
 	<!--end::Body-->
 </html>
