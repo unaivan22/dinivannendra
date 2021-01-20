@@ -23,7 +23,7 @@ var data1 = tools.reduce((ac, ele) => {
 }, '')
 
 var coding = [
-    ["HTML"],['CSS'],['Javascript'],['Jquery UI'],['Flutter UI']
+    ["HTML"],['CSS'],['Javascript'],['Jquery UI'],['Flutter UI'],['CSM - Wordpress']
 ]
   
 var data2 = coding.reduce((ac, ele) => {
